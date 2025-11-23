@@ -12,8 +12,5 @@ This project builds a **1D Convolutional Neural Network (CNN)** classifier on th
 
 ## Dataset
 
-- Expected file: `data/data.csv` in Kaggle's *breast-cancer-wisconsin-data* format (a.k.a. WDBC), columns include:
-  - `id`, `diagnosis` (M/B), 30 numeric features like `radius_mean`, `texture_mean`, ..., and a trailing `Unnamed: 32` (NaN).
-- If `data/data.csv` is **not found**, the notebook will **fall back** to `sklearn.datasets.load_breast_cancer()` and auto-construct the same schema.
 
 ---
